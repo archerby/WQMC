@@ -1,0 +1,149 @@
+* {
+  color: #dddddd;
+}
+body {
+  background: #000000 url('../images/bg.jpg') 50% 0;
+  color: #dddddd;
+  font-family: Verdana;
+  font-size: 14px;
+}
+a {
+  color: #638ba5;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+}
+h1 {
+  text-align: center;
+}
+input,
+textarea,
+select {
+  background-color: #5497c4;
+  border: 1px solid #25455a;
+  color: #000;
+  padding: 5px;
+}
+input[type=submit] {
+  width: 100px;
+}
+label {
+  color: #5497c4;
+  font-size: 13px;
+}
+fieldset {
+  border-width: 0;
+  margin: 0 auto;
+  width: 550px;
+}
+blockquote,
+code,
+pre {
+  color: #aaaaaa;
+  font-family: Consolas,Courier New;
+}
+textarea {
+  height: 250px;
+  width: 600px;
+}
+ul.log {
+  background: #ffd280;
+  border: 1px solid orange;
+  display: block;
+}
+ul.log li {
+  color: #000;
+  padding: 5px;
+}
+div.log_block {
+  -moz-box-shadow: 5px 5px 10px black;
+  -webkit-box-shadow: 5px 5px 10px black;
+  background-color: black;
+  border: 1px solid #638ba5;
+  box-shadow: 5px 5px 10px black;
+  margin: 0 auto 20px auto;
+  min-width: 900px;
+  width: 80%;
+}
+div#header {
+  background: url('../images/menu_bg.jpg') repeat-x;
+  height: 27px;
+  margin-top: 50px;
+}
+div#header div {
+  display: inline;
+  height: 27px;
+  width: 172px;
+}
+div#header div.left {
+  background: url('../images/menu_bg_left.jpg');
+  float: left;
+}
+div#header div.right {
+  background: url('../images/menu_bg_right.jpg');
+  float: right;
+}
+div#header table {
+  width: 100%;
+}
+div#header div#menu {
+  display: block;
+  font-size: 13px;
+  height: 25px;
+  margin: 2px auto auto auto;
+  text-align: center;
+  width: 550px;
+}
+div#header div#menu li {
+  float: left;
+  margin-right: 27px;
+}
+div#content {
+  background: #000000 url('../images/content_bg.jpg') no-repeat 100% 100%;
+  line-height: 150%;
+  min-height: 45px;
+  padding-bottom: 20px;
+}
+div#content > * {
+  margin: 15px;
+}
+div#content .invitation {
+  text-align: right;
+}
+div#content .kqc-form-element-wrapper {
+  margin-bottom: 10px;
+}
+div#content table {
+  margin: 0 auto;
+  width: 900px;
+}
+div#content table thead {
+  background-color: #222;
+}
+div#content table thead tr td {
+  border-bottom: 1px solid #000;
+  font-weight: 700;
+}
+div#content table tbody tr:nth-child(odd) {
+  background-color: #333;
+}
+div#content table tbody tr:nth-child(even) {
+  background-color: #111;
+}
+div#content table td {
+  padding: 0.5em 1em;
+  text-align: left;
+}
+div#content.users {
+  position: relative;
+  width: 60%;
+}
+#footer {
+  height: 15px;
+}
+#footer #copy {
+  clear: both;
+  float: right;
+  margin-right: 10px;
+}
